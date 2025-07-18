@@ -1,78 +1,84 @@
-import requests
 import threading
-from queue import Queue
-from random import choice
+import random
+import subprocess
+import time
+import json
 
-INPUT_FILE = "proxies.txt"
-OUTPUT_FILE = "result.txt"
-USER_AGENT_FILE = "user_agents.txt"
-API_URL = "https://api.bringyour.com/my-ip-info"
-THREADS = 500
-TIMEOUT = 10
+proxy_file = "proxies.txt"
+user_agent_file = "user_agents.txt"
+output_file = "result.txt"
+MAX_THREADS = 200  # jumlah thread paralel maksimal
 
-proxy_queue = Queue()
 lock = threading.Lock()
+sema = threading.Semaphore(MAX_THREADS)
+printed = set()
 
-# Load proxy list, hapus duplikat
-def load_proxies():
-    with open(INPUT_FILE, "r") as f:
-        return list(set([line.strip() for line in f if line.strip()]))
+# Load user agents
+with open(user_agent_file, "r") as f:
+    user_agents = [line.strip() for line in f if line.strip()]
 
-# Load user agents dari file
-def load_user_agents():
-    with open(USER_AGENT_FILE, "r") as f:
-        return [ua.strip() for ua in f if ua.strip()]
+# Load proxies
+with open(proxy_file, "r") as f:
+    proxies = list(set([line.strip() for line in f if line.strip()]))
 
-# Cek 1 proxy
-def check_proxy(proxy, user_agents):
-    try:
-        headers = {"User-Agent": choice(user_agents)}
-        proxies = {"http": proxy, "https": proxy}
-        response = requests.get(API_URL, headers=headers, proxies=proxies, timeout=TIMEOUT)
+def check_proxy(proxy):
+    with sema:
+        user_agent = random.choice(user_agents)
+        cmd = [
+            "curl", "-s", "-x", proxy,
+            "-A", user_agent,
+            "https://api.bringyour.com/my-ip-info"
+        ]
 
-        if response.status_code == 200 and "ip" in response.text:
-            data = response.json()
-            result = (
-                f"[✓] {proxy} | IP: {data.get('ip')} | Country: {data.get('country')} | "
-                f"VPN: {data.get('vpn')} | Proxy: {data.get('proxy')} | TOR: {data.get('tor')} | "
-                f"Relay: {data.get('relay')} | Hosting: {data.get('hosting')} | Service: {data.get('service', '')}"
-            )
+        try:
+            response = subprocess.check_output(cmd, timeout=10).decode("utf-8")
+        except subprocess.TimeoutExpired:
             with lock:
-                print(result)
-                with open(OUTPUT_FILE, "a") as out:
-                    out.write(result + "\n")
-    except Exception:
-        pass
+                print(f"[✗] {proxy} | Timeout")
+            return
+        except Exception as e:
+            with lock:
+                print(f"[✗] {proxy} | Error: {str(e)}")
+            return
 
-# Worker thread
-def worker(user_agents):
-    while not proxy_queue.empty():
-        proxy = proxy_queue.get()
-        check_proxy(proxy, user_agents)
-        proxy_queue.task_done()
+        try:
+            data = json.loads(response)
+            info = data.get("info", {})
+            ip = info.get("ip", "")
+            country = info.get("location", {}).get("country", {}).get("name", "")
+            vpn = info.get("privacy", {}).get("vpn", "")
+            proxy_flag = info.get("privacy", {}).get("proxy", "")
+            tor = info.get("privacy", {}).get("tor", "")
+            relay = info.get("privacy", {}).get("relay", "")
+            hosting = info.get("privacy", {}).get("hosting", "")
+            service = info.get("privacy", {}).get("service", "")
 
-# Main function
+            if not ip:
+                raise ValueError("Empty IP")
+
+            result_line = f"[✓] {proxy} | IP: {ip} | Country: {country} | VPN: {vpn} | Proxy: {proxy_flag} | TOR: {tor} | Relay: {relay} | Hosting: {hosting} | Service: {service}"
+
+            with lock:
+                if proxy not in printed:
+                    printed.add(proxy)
+                    print(result_line)
+                    with open(output_file, "a") as out:
+                        out.write(result_line + "\n")
+        except Exception:
+            with lock:
+                print(f"[✗] {proxy} | Invalid response")
+
 def main():
-    proxies = load_proxies()
-    user_agents = load_user_agents()
-
-    print(f"🔍 Checking {len(proxies)} proxies...")
-
-    open(OUTPUT_FILE, "w").close()  # clear result file
+    threads = []
+    open(output_file, "w").close()  # clear output file
 
     for proxy in proxies:
-        proxy_queue.put(proxy)
-
-    threads = []
-    for _ in range(min(THREADS, len(proxies))):
-        t = threading.Thread(target=worker, args=(user_agents,))
+        t = threading.Thread(target=check_proxy, args=(proxy,))
         t.start()
         threads.append(t)
 
     for t in threads:
         t.join()
-
-    print("✅ Done!")
 
 if __name__ == "__main__":
     main()
