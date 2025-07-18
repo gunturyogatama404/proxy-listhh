@@ -1,56 +1,78 @@
-import argparse
-import threading
 import requests
-import random
+import threading
+from queue import Queue
+from random import choice
 
-with open("user_agents.txt", "r") as f:
-    user_agents = [line.strip() for line in f if line.strip()]
+INPUT_FILE = "proxies.txt"
+OUTPUT_FILE = "result.txt"
+USER_AGENT_FILE = "user_agents.txt"
+API_URL = "https://api.bringyour.com/my-ip-info"
+THREADS = 500
+TIMEOUT = 10
 
+proxy_queue = Queue()
 lock = threading.Lock()
-results = []
 
-def check_proxy(proxy, timeout):
-    proxies = {"http": proxy, "https": proxy}
-    headers = {"User-Agent": random.choice(user_agents)}
+# Load proxy list, hapus duplikat
+def load_proxies():
+    with open(INPUT_FILE, "r") as f:
+        return list(set([line.strip() for line in f if line.strip()]))
+
+# Load user agents dari file
+def load_user_agents():
+    with open(USER_AGENT_FILE, "r") as f:
+        return [ua.strip() for ua in f if ua.strip()]
+
+# Cek 1 proxy
+def check_proxy(proxy, user_agents):
     try:
-        r = requests.get("https://api.bringyour.com/my-ip-info", headers=headers, proxies=proxies, timeout=timeout)
-        if r.status_code == 200 and "ip" in r.text.lower():
-            data = r.json()
-            result = f"[✓] {proxy} | IP: {data.get('ip')} | Country: {data.get('country')} | VPN: {data.get('vpn')} | Proxy: {data.get('proxy')} | TOR: {data.get('tor')} | Relay: {data.get('relay')} | Hosting: {data.get('hosting')} | Service: {data.get('service', '')}"
+        headers = {"User-Agent": choice(user_agents)}
+        proxies = {"http": proxy, "https": proxy}
+        response = requests.get(API_URL, headers=headers, proxies=proxies, timeout=TIMEOUT)
+
+        if response.status_code == 200 and "ip" in response.text:
+            data = response.json()
+            result = (
+                f"[✓] {proxy} | IP: {data.get('ip')} | Country: {data.get('country')} | "
+                f"VPN: {data.get('vpn')} | Proxy: {data.get('proxy')} | TOR: {data.get('tor')} | "
+                f"Relay: {data.get('relay')} | Hosting: {data.get('hosting')} | Service: {data.get('service', '')}"
+            )
             with lock:
-                results.append(result)
-            print(result)
+                print(result)
+                with open(OUTPUT_FILE, "a") as out:
+                    out.write(result + "\n")
     except Exception:
         pass
 
-def main(file, output, timeout, threads):
-    with open(file, "r") as f:
-        proxies = [line.strip() for line in f if line.strip()]
+# Worker thread
+def worker(user_agents):
+    while not proxy_queue.empty():
+        proxy = proxy_queue.get()
+        check_proxy(proxy, user_agents)
+        proxy_queue.task_done()
 
-    thread_list = []
+# Main function
+def main():
+    proxies = load_proxies()
+    user_agents = load_user_agents()
+
+    print(f"🔍 Checking {len(proxies)} proxies...")
+
+    open(OUTPUT_FILE, "w").close()  # clear result file
+
     for proxy in proxies:
-        if not proxy.startswith("http"):
-            proxy = "http://" + proxy
-        t = threading.Thread(target=check_proxy, args=(proxy, timeout))
-        thread_list.append(t)
-        t.start()
-        if len(thread_list) >= threads:
-            for th in thread_list:
-                th.join()
-            thread_list = []
+        proxy_queue.put(proxy)
 
-    for t in thread_list:
+    threads = []
+    for _ in range(min(THREADS, len(proxies))):
+        t = threading.Thread(target=worker, args=(user_agents,))
+        t.start()
+        threads.append(t)
+
+    for t in threads:
         t.join()
 
-    with open(output, "w") as f:
-        for line in results:
-            f.write(line + "\n")
+    print("✅ Done!")
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser()
-    parser.add_argument("-l", "--list", default="proxies.txt")
-    parser.add_argument("-o", "--output", default="result.txt")
-    parser.add_argument("-t", "--timeout", type=int, default=10)
-    parser.add_argument("-th", "--threads", type=int, default=50)
-    args = parser.parse_args()
-    main(args.list, args.output, args.timeout, args.threads)
+    main()
