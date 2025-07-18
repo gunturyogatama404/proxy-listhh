@@ -6,7 +6,7 @@ import random
 # === KONFIGURASI ===
 INPUT_FILE = "proxies.txt"
 USERAGENT_FILE = "user_agent.txt"
-OUTPUT_FILE = "working_detailed.txt"
+OUTPUT_FILE = "result.txt"
 TARGET_URL = "https://api.bringyour.com/my-ip-info"
 MAX_THREADS = 100
 TIMEOUT = 10
