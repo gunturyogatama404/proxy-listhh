@@ -1,38 +1,31 @@
-name: Cek Proxy
+name: Cek Proxy Valid
 
 on:
-  schedule:
-    - cron: "15 */6 * * *"  # Setiap 6 jam pada menit ke-15 (UTC)
-  workflow_dispatch:        # Bisa dijalankan manual
+  push:
+    paths:
+      - proxies.txt
+  workflow_dispatch:
 
 jobs:
-  check-proxy:
+  check:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout repo
-        uses: actions/checkout@v3
-
-      - name: Setup Python
+      - uses: actions/checkout@v3
+      - name: Set up Python
         uses: actions/setup-python@v4
         with:
           python-version: '3.x'
 
       - name: Install dependencies
-        run: pip install -r requirements.txt
+        run: pip install requests
 
-      - name: Jalankan pengecekan proxy
-        run: |
-          python proxychecker.py -l proxies.txt -o result.txt -s https://api.bringyour.com/my-ip-info -v -r
+      - name: Run proxy checker
+        run: python proxychecker.py -l proxies.txt -o result.txt -t 10 -th 50
 
-      - name: Hapus duplikat di result.txt
+      - name: Commit and push results
         run: |
-          sort result.txt | uniq > temp.txt && mv temp.txt result.txt
-
-      - name: Commit hasil pengecekan
-        run: |
-          git config --global user.email "github-actions@github.com"
-          git config --global user.name "GitHub Actions"
+          git config user.name github-actions
+          git config user.email github-actions@github.com
           git add result.txt
-          git commit -m "🔎 Update hasil proxy valid (no duplicate)" || echo "Tidak ada perubahan"
+          git commit -m "✅ Checked proxy result" || echo "No changes"
           git push
