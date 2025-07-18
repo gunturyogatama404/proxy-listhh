@@ -60,6 +60,6 @@ python3 proxyChecker.py -t 20 -s google.com -l output.txt
 
 ## Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=vann-dev/proxy-list,Vann-Dev/proxy-list&type=Date)](https://star-history.com/#vann-dev/proxy-list&Vann-Dev/proxy-list&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=gunturyogatama404/proxy-listhh,gunturyogatama404/proxy-listhh&type=Date)](https://star-history.com/#gunturyogatama404/proxy-listhh&gunturyogatama404/proxy-listhh&Date)
 
 
