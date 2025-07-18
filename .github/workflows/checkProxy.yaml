@@ -1,18 +1,19 @@
-name: Cek Proxy Valid
+name: Cek Proxy
 
 on:
-  push:
-    paths:
-      - proxies.txt
+  schedule:
+    - cron: "*/30 * * * *"  # Setiap 30 menit
   workflow_dispatch:
 
 jobs:
   check:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
       - name: Set up Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         with:
           python-version: '3.x'
 
@@ -20,12 +21,12 @@ jobs:
         run: pip install requests
 
       - name: Run proxy checker
-        run: python proxychecker.py -l proxies.txt -o result.txt -t 10 -th 50
+        run: python proxychecker.py
 
-      - name: Commit and push results
+      - name: Commit result
         run: |
-          git config user.name github-actions
-          git config user.email github-actions@github.com
+          git config --global user.email "github-actions@github.com"
+          git config --global user.name "github-actions"
           git add result.txt
-          git commit -m "✅ Checked proxy result" || echo "No changes"
+          git commit -m "✅ Checked proxies" || echo "No changes"
           git push
