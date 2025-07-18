@@ -27,6 +27,9 @@ jobs:
         run: |
           git config --global user.email "github-actions@github.com"
           git config --global user.name "github-actions"
-          git add result.txt
-          git commit -m "✅ Checked proxies" || echo "No changes"
-          git push
+          if [ -f result.txt ]; then
+            git add result.txt
+            git commit -m "✅ Checked proxies" || echo "No changes"
+            git push
+          else
+            echo "❌ result.txt tidak ditemukan, melewati commit."
