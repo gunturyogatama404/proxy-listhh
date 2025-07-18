@@ -1,31 +1,36 @@
-name: Get Proxy List
+name: Get Proxies and push proxies
 
 on:
   schedule:
-    - cron: "0 */6 * * *"
+    - cron: '0 * * * *'  # Setiap jam
   workflow_dispatch:
 
-jobs:
-  get-proxies:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
+permissions:
+  contents: write
 
-      - name: Set up Python
+jobs:
+  scrape_proxies:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
         uses: actions/setup-python@v5
         with:
-          python-version: "3.11"
+          python-version: '3.10'
 
       - name: Install dependencies
-        run: pip install requests
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
 
-      - name: Run proxy scraper
+      - name: Run Proxy Scraper
         run: python proxyscrape.py
 
-      - name: Commit proxies.txt
-        run: |
-          git config user.name "github-actions"
-          git config user.email "actions@github.com"
-          git add proxies.txt
-          git commit -m "Update proxy list" || echo "No changes"
-          git push
+      - name: Commit scraped proxies
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: update proxy list"
+          file_pattern: proxies.txt
