@@ -2,7 +2,7 @@ name: Cek Proxy
 
 on:
   schedule:
-    - cron: "*/30 * * * *"  # Setiap 30 menit
+    - cron: "0 0 * * *"  # Setiap hari jam 00:00 UTC
   workflow_dispatch:
 
 jobs:
