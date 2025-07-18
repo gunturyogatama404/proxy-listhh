@@ -1,48 +1,31 @@
-name: Get Proxies and push proxies
+name: Get Proxy List
 
 on:
   schedule:
-    - cron: '0 */3 * * *'
-  push: 
-    branches:
-      - main
+    - cron: "0 */6 * * *"
+  workflow_dispatch:
 
-permissions:                
-    contents: write
-    
 jobs:
-  get_proxies:
+  get-proxies:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v2
+      - uses: actions/checkout@v4
 
-      - name: Install Python
+      - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.10'
+          python-version: "3.11"
 
       - name: Install dependencies
-        run: |
-          python -m pip install --upgrade pip
-          python -m pip install -r requirements.txt
+        run: pip install requests
 
-      - name: Getting proxies
-        run: |
-          python3 proxyScraper.py -p http -o proxies/http.txt
-          python3 proxyScraper.py -p https -o proxies/https.txt
-          python3 proxyScraper.py -p socks4 -o proxies/socks4.txt
-          python3 proxyScraper.py -p socks5 -o proxies/socks5.txt
+      - name: Run proxy scraper
+        run: python proxyscrape.py
 
-      - name: Commit
+      - name: Commit proxies.txt
         run: |
-          git config --global user.email github-actions@github.com
-          git config --local user.name github-actions[bot]
-          git commit -am "feat: update proxies"
-
-      - name: Push changes
-        uses: ad-m/github-push-action@master
-        with:
-            github_token: ${{ secrets.GITHUB_TOKEN }}
-        env:
-            CI: true
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add proxies.txt
+          git commit -m "Update proxy list" || echo "No changes"
+          git push
