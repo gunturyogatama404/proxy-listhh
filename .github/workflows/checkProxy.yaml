@@ -23,13 +23,10 @@ jobs:
       - name: Run proxy checker
         run: python proxychecker.py
 
-      - name: Commit result
+      - name: Commit result proxies
         run: |
           git config --global user.email "github-actions@github.com"
           git config --global user.name "github-actions"
-          if [ -f result.txt ]; then
-            git add result.txt
-            git commit -m "✅ Checked proxies" || echo "No changes"
-            git push
-          else
-            echo "❌ result.txt tidak ditemukan, melewati commit."
+          git add result.txt
+          git commit -m "🔄 Update result" || echo "No changes"
+          git push
