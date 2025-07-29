@@ -1,166 +1,237 @@
 === WORKING PROXY DETAIL LOG ===
-[✓] http://102.213.216.98:8080 | IP: 102.213.216.98 | Country: Kenya | VPN: False | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: 
-[✓] http://103.103.3.6:8080 | IP: 103.103.3.6 | Country: India | VPN: False | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: 
-[✓] http://103.133.26.106:8080 | IP: 103.133.25.90 | Country: Indonesia | VPN: True | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: 
-[✓] http://103.142.254.101:1111 | IP: 103.142.254.101 | Country: Indonesia | VPN: False | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: 
-[✓] http://103.137.91.250:8080 | IP: 103.137.91.250 | Country: Laos | VPN: True | Proxy: True | TOR: False | Relay: False | Hosting: False | Service: 
-[✓] http://103.144.209.104:8715 | IP: 103.144.209.104 | Country: Indonesia | VPN: True | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: 
-[✓] http://103.159.220.215:80 | IP: 103.159.220.215 | Country: Indonesia | VPN: False | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: 
-[✓] http://103.148.195.22:8080 | IP: 103.148.195.11 | Country: Indonesia | VPN: False | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: 
-[✓] http://103.156.75.215:9980 | IP: 103.156.75.97 | Country: Indonesia | VPN: True | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: 
-[✓] http://103.157.117.234:8080 | IP: 202.65.231.63 | Country: Indonesia | VPN: False | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: 
-[✓] http://103.172.70.30:1111 | IP: 103.172.70.30 | Country: Indonesia | VPN: False | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: 
-[✓] http://103.172.121.52:8083 | IP: 103.172.121.53 | Country: Indonesia | VPN: False | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: 
-[✓] http://103.172.42.105:1111 | IP: 103.172.42.105 | Country: Indonesia | VPN: False | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: 
-[✓] http://103.169.254.75:6080 | IP: 103.169.254.75 | Country: Indonesia | VPN: False | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: 
-[✓] http://103.183.19.34:3128 | IP: 103.183.19.34 | Country: Indonesia | VPN: True | Proxy: True | TOR: False | Relay: False | Hosting: False | Service: 
-[✓] http://103.231.236.238:8182 | IP: 103.231.236.238 | Country: Indonesia | VPN: False | Proxy: True | TOR: False | Relay: False | Hosting: False | Service: 
-[✓] http://103.26.128.203:8080 | IP: 103.26.128.203 | Country: Indonesia | VPN: False | Proxy: True | TOR: False | Relay: False | Hosting: False | Service: 
-[✓] http://103.231.177.120:5020 | IP: 103.231.177.120 | Country: Bangladesh | VPN: False | Proxy: True | TOR: False | Relay: False | Hosting: False | Service: 
-[✓] http://103.188.169.95:8080 | IP: 103.188.169.95 | Country: Indonesia | VPN: True | Proxy: False | TOR: False | Relay: False | Hosting: True | Service: 
-[✓] http://103.247.14.137:8285 | IP: 103.247.14.137 | Country: Indonesia | VPN: False | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: 
-[✓] http://103.227.186.73:6080 | IP: 103.227.186.73 | Country: Indonesia | VPN: False | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: 
-[✓] http://103.210.35.184:8080 | IP: 103.210.35.133 | Country: Indonesia | VPN: True | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: 
-[✓] http://103.243.177.90:8080 | IP: 103.243.177.90 | Country: Indonesia | VPN: True | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: 
-[✓] http://103.47.175.161:83 | IP: 103.248.121.252 | Country: India | VPN: False | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: 
-[✓] http://103.48.69.173:83 | IP: 103.48.71.114 | Country: India | VPN: False | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: 
-[✓] http://103.82.37.232:8888 | IP: 103.82.37.232 | Country: Vietnam | VPN: False | Proxy: False | TOR: False | Relay: False | Hosting: True | Service: 
-[✓] http://104.218.52.160:3128 | IP: 104.218.52.160 | Country: United States | VPN: False | Proxy: False | TOR: False | Relay: False | Hosting: True | Service: 
-[✓] http://110.76.145.59:89 | IP: 110.76.145.119 | Country: Indonesia | VPN: False | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: 
+[✓] http://101.109.43.141:8080 | IP: 101.109.43.141 | Country: Thailand | VPN: False | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: 
+[✓] http://102.66.104.162:8865 | IP: 102.66.104.162 | Country: South Africa | VPN: False | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: 
+[✓] http://102.164.252.150:8080 | IP: 102.164.252.150 | Country: Equatorial Guinea | VPN: False | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: 
+[✓] http://103.125.174.83:7777 | IP: 103.125.174.83 | Country: Indonesia | VPN: False | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: 
+[✓] http://103.126.87.112:1285 | IP: 103.126.87.16 | Country: Indonesia | VPN: True | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: 
+[✓] http://103.126.87.76:8082 | IP: 103.126.87.76 | Country: Indonesia | VPN: True | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: 
+[✓] http://103.118.102.98:80 | IP: 103.118.102.98 | Country: Indonesia | VPN: False | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: 
+[✓] http://103.14.231.218:3168 | IP: 103.14.231.218 | Country: Indonesia | VPN: False | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: 
+[✓] http://103.132.52.250:8899 | IP: 103.132.52.254 | Country: Indonesia | VPN: True | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: 
+[✓] http://103.147.85.28:8080 | IP: 103.147.85.28 | Country: Indonesia | VPN: False | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: 
+[✓] http://103.144.103.154:1111 | IP: 103.144.103.154 | Country: Indonesia | VPN: False | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: 
+[✓] http://103.160.205.230:8080 | IP: 103.160.205.230 | Country: Indonesia | VPN: False | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: 
+[✓] http://103.165.155.238:2016 | IP: 103.178.194.236 | Country: Indonesia | VPN: True | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: 
+[✓] http://103.171.233.72:8080 | IP: 103.171.233.72 | Country: Bangladesh | VPN: True | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: 
+[✓] http://103.196.179.78:8080 | IP: 103.196.179.78 | Country: Indonesia | VPN: False | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: 
+[✓] http://103.19.130.50:8080 | IP: 103.19.130.50 | Country: Bangladesh | VPN: False | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: 
+[✓] http://103.235.181.245:8080 | IP: 103.235.181.245 | Country: Indonesia | VPN: False | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: 
+[✓] http://103.226.232.197:8099 | IP: 103.226.232.197 | Country: Indonesia | VPN: False | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: 
+[✓] http://103.242.105.65:7200 | IP: 103.242.105.65 | Country: Indonesia | VPN: False | Proxy: True | TOR: False | Relay: False | Hosting: True | Service: 
+[✓] http://103.217.216.71:1111 | IP: 103.217.216.71 | Country: Indonesia | VPN: False | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: 
+[✓] http://103.220.23.57:3128 | IP: 103.220.23.57 | Country: Indonesia | VPN: True | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: 
+[✓] http://103.68.214.113:8787 | IP: 103.68.214.113 | Country: Indonesia | VPN: False | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: 
+[✓] http://103.97.140.99:1080 | IP: 103.97.140.99 | Country: Indonesia | VPN: False | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: 
+[✓] http://103.85.15.46:8082 | IP: 103.85.15.46 | Country: Indonesia | VPN: True | Proxy: False | TOR: False | Relay: False | Hosting: True | Service: 
+[✓] http://103.75.52.193:8989 | IP: 175.106.15.126 | Country: Indonesia | VPN: False | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: 
+[✓] http://103.97.224.223:8841 | IP: 103.97.224.239 | Country: Indonesia | VPN: False | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: 
+[✓] http://103.54.43.131:8080 | IP: 103.54.43.131 | Country: Bangladesh | VPN: True | Proxy: True | TOR: False | Relay: False | Hosting: False | Service: 
+[✓] http://109.195.113.65:8080 | IP: 109.195.113.65 | Country: Russia | VPN: False | Proxy: True | TOR: False | Relay: False | Hosting: False | Service: 
+[✓] http://112.198.132.199:8082 | IP: 112.198.132.199 | Country: Philippines | VPN: False | Proxy: True | TOR: False | Relay: False | Hosting: False | Service: 
+[✓] http://114.80.37.199:3081 | IP: 114.80.37.199 | Country: China | VPN: False | Proxy: True | TOR: False | Relay: False | Hosting: False | Service: 
+[✓] http://114.80.36.254:3081 | IP: 114.80.36.254 | Country: China | VPN: False | Proxy: True | TOR: False | Relay: False | Hosting: False | Service: 
+[✓] http://114.31.15.190:2024 | IP: 114.31.8.202 | Country: Bangladesh | VPN: False | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: 
+[✓] http://114.80.39.130:3081 | IP: 114.80.39.130 | Country: China | VPN: False | Proxy: True | TOR: False | Relay: False | Hosting: False | Service: 
+[✓] http://110.49.34.126:32650 | IP: 110.49.34.126 | Country: Thailand | VPN: False | Proxy: True | TOR: False | Relay: False | Hosting: False | Service: 
 [✓] http://113.160.132.195:8080 | IP: 113.160.132.195 | Country: Vietnam | VPN: False | Proxy: True | TOR: False | Relay: False | Hosting: False | Service: 
-[✓] http://115.147.34.75:8082 | IP: 115.147.34.75 | Country: Philippines | VPN: True | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: 
-[✓] http://116.203.139.209:5678 | IP: 116.203.139.209 | Country: Germany | VPN: False | Proxy: True | TOR: False | Relay: False | Hosting: True | Service: 
+[✓] http://115.127.139.106:48134 | IP: 115.127.139.106 | Country: Bangladesh | VPN: False | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: 
+[✓] http://113.160.99.26:8080 | IP: 113.160.99.26 | Country: Vietnam | VPN: False | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: 
 [✓] http://117.250.3.58:8080 | IP: 117.250.3.58 | Country: India | VPN: True | Proxy: True | TOR: False | Relay: False | Hosting: False | Service: Ishaan VPN
-[✓] http://118.69.111.112:8080 | IP: 118.69.111.112 | Country: Vietnam | VPN: False | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: 
-[✓] http://120.28.76.192:8082 | IP: 120.28.76.192 | Country: Philippines | VPN: False | Proxy: True | TOR: False | Relay: False | Hosting: False | Service: 
+[✓] http://116.107.175.128:10001 | IP: 171.224.190.119 | Country: Vietnam | VPN: False | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: 
+[✓] http://114.9.24.102:8082 | IP: 103.166.159.121 | Country: Indonesia | VPN: False | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: 
+[✓] http://118.163.13.200:8080 | IP: 118.163.13.200 | Country: Taiwan | VPN: True | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: 
+[✓] http://118.97.47.248:55443 | IP: 118.97.47.249 | Country: Indonesia | VPN: False | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: 
+[✓] http://119.94.116.130:8081 | IP: 119.94.116.130 | Country: Philippines | VPN: False | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: 
+[✓] http://118.97.164.19:8080 | IP: 118.97.164.19 | Country: Indonesia | VPN: True | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: 
 [✓] http://121.101.133.220:8080 | IP: 36.84.83.151 | Country: Indonesia | VPN: False | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: 
-[✓] http://121.101.135.46:8089 | IP: 121.101.135.94 | Country: Indonesia | VPN: False | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: 
-[✓] http://120.28.137.232:8082 | IP: 120.28.137.232 | Country: Philippines | VPN: False | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: 
-[✓] http://128.140.113.110:5153 | IP: 2a01:4f8:c012:6cd0::1 | Country: Germany | VPN: False | Proxy: False | TOR: False | Relay: False | Hosting: True | Service: 
-[✓] http://123.200.31.210:100 | IP: 123.200.31.209 | Country: Bangladesh | VPN: False | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: 
-[✓] http://138.117.85.113:8080 | IP: 138.117.87.156 | Country: Colombia | VPN: False | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: 
-[✓] http://131.196.219.128:8080 | IP: 131.196.219.148 | Country: Brazil | VPN: False | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: 
-[✓] http://138.117.85.17:999 | IP: 138.117.85.17 | Country: Colombia | VPN: False | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: 
-[✓] http://138.59.151.162:8080 | IP: 138.59.151.162 | Country: Brazil | VPN: False | Proxy: True | TOR: False | Relay: False | Hosting: False | Service: 
+[✓] http://120.28.193.165:5050 | IP: 120.28.193.165 | Country: Philippines | VPN: False | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: 
+[✓] http://119.155.143.218:8080 | IP: 119.155.143.218 | Country: Pakistan | VPN: False | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: 
+[✓] http://122.52.33.242:8082 | IP: 122.52.33.242 | Country: Philippines | VPN: False | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: 
+[✓] http://120.28.152.190:8082 | IP: 120.28.152.190 | Country: Philippines | VPN: False | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: 
+[✓] http://125.77.135.240:80 | IP: 110.88.151.119 | Country: China | VPN: True | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: Ishaan VPN
+[✓] http://128.140.113.110:5153 | IP: 128.140.113.110 | Country: Germany | VPN: False | Proxy: True | TOR: False | Relay: False | Hosting: True | Service: 
+[✓] http://123.25.234.143:8090 | IP: 123.25.234.143 | Country: Vietnam | VPN: False | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: 
 [✓] http://139.59.222.40:3128 | IP: 165.22.63.252 | Country: Singapore | VPN: False | Proxy: False | TOR: False | Relay: False | Hosting: True | Service: 
+[✓] http://138.59.11.192:999 | IP: 138.59.10.10 | Country: Venezuela | VPN: False | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: 
 [✓] http://14.241.80.37:8080 | IP: 14.241.80.37 | Country: Vietnam | VPN: False | Proxy: True | TOR: False | Relay: False | Hosting: False | Service: 
-[✓] http://140.227.81.191:3128 | IP: 140.227.81.191 | Country: Japan | VPN: False | Proxy: True | TOR: False | Relay: False | Hosting: False | Service: 
-[✓] http://138.59.11.192:999 | IP: 138.59.10.11 | Country: Venezuela | VPN: False | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: 
-[✓] http://140.238.184.182:3128 | IP: 140.238.184.182 | Country: Brazil | VPN: False | Proxy: True | TOR: False | Relay: False | Hosting: True | Service: 
-[✓] http://141.11.37.220:8080 | IP: 2a0f:2b86:10:1:1:2:2a96:5191 | Country: Netherlands | VPN: False | Proxy: False | TOR: False | Relay: False | Hosting: True | Service: 
+[✓] http://14.225.210.186:3129 | IP: 14.225.210.186 | Country: Vietnam | VPN: False | Proxy: True | TOR: False | Relay: False | Hosting: False | Service: 
+[✓] http://140.238.184.182:3128 | IP: 140.238.184.182 | Country: Brazil | VPN: False | Proxy: False | TOR: False | Relay: False | Hosting: True | Service: 
+[✓] http://139.135.145.198:5050 | IP: 139.135.145.198 | Country: Philippines | VPN: False | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: 
+[✓] http://144.76.159.121:8082 | IP: 185.195.232.175 | Country: United Kingdom | VPN: True | Proxy: False | TOR: False | Relay: False | Hosting: True | Service: Mullvad
+[✓] http://144.76.159.121:8084 | IP: 89.36.76.54 | Country: Germany | VPN: True | Proxy: False | TOR: False | Relay: False | Hosting: True | Service: Surfshark
+[✓] http://144.76.159.121:8085 | IP: 217.138.216.254 | Country: Germany | VPN: True | Proxy: False | TOR: False | Relay: False | Hosting: True | Service: ProtonVPN
+[✓] http://147.28.240.213:9401 | IP: 147.28.240.213 | Country: Germany | VPN: True | Proxy: True | TOR: False | Relay: False | Hosting: True | Service: Link VPN
+[✓] http://147.28.240.213:9443 | IP: 147.28.240.213 | Country: Germany | VPN: True | Proxy: True | TOR: False | Relay: False | Hosting: True | Service: Link VPN
+[✓] http://147.28.240.216:9401 | IP: 147.28.240.216 | Country: Germany | VPN: True | Proxy: False | TOR: False | Relay: False | Hosting: True | Service: Link VPN
+[✓] http://147.28.240.214:9401 | IP: 147.28.240.214 | Country: Germany | VPN: True | Proxy: False | TOR: False | Relay: False | Hosting: True | Service: Ishaan VPN
+[✓] http://147.28.240.215:9401 | IP: 147.28.240.215 | Country: Germany | VPN: True | Proxy: False | TOR: False | Relay: False | Hosting: True | Service: Link VPN
+[✓] http://147.28.240.217:9401 | IP: 147.28.240.217 | Country: Germany | VPN: True | Proxy: False | TOR: False | Relay: False | Hosting: True | Service: Blaze VPN
+[✓] http://147.28.240.218:443 | IP: 147.28.240.218 | Country: Germany | VPN: True | Proxy: False | TOR: False | Relay: False | Hosting: True | Service: Link VPN
 [✓] http://147.75.49.154:80 | IP: 147.75.49.154 | Country: United States | VPN: False | Proxy: True | TOR: False | Relay: False | Hosting: True | Service: 
-[✓] http://14.225.210.186:3129 | IP: 14.225.210.186 | Country: Vietnam | VPN: False | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: 
-[✓] http://147.28.240.218:443 | IP: 147.28.240.218 | Country: Germany | VPN: True | Proxy: True | TOR: False | Relay: False | Hosting: True | Service: Ishaan VPN
-[✓] http://147.28.240.217:9401 | IP: 147.28.240.217 | Country: Germany | VPN: True | Proxy: True | TOR: False | Relay: False | Hosting: True | Service: Ishaan VPN
-[✓] http://147.28.240.214:9401 | IP: 147.28.240.214 | Country: Germany | VPN: True | Proxy: True | TOR: False | Relay: False | Hosting: True | Service: Ishaan VPN
-[✓] http://147.28.240.218:80 | IP: 147.28.240.218 | Country: Germany | VPN: True | Proxy: True | TOR: False | Relay: False | Hosting: True | Service: Ishaan VPN
-[✓] http://147.28.240.215:9401 | IP: 147.28.240.215 | Country: Germany | VPN: True | Proxy: True | TOR: False | Relay: False | Hosting: True | Service: Ishaan VPN
-[✓] http://147.28.240.218:9401 | IP: 147.28.240.218 | Country: Germany | VPN: True | Proxy: True | TOR: False | Relay: False | Hosting: True | Service: Ishaan VPN
-[✓] http://14.225.240.23:8562 | IP: 14.225.240.23 | Country: Vietnam | VPN: False | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: 
-[✓] http://152.53.194.46:8039 | IP: 84.239.16.180 | Country: United States | VPN: True | Proxy: False | TOR: False | Relay: False | Hosting: True | Service: Private Internet Access
-[✓] http://152.53.194.46:8051 | IP: 102.129.153.76 | Country: United States | VPN: True | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: Private Internet Access
+[✓] http://147.28.240.218:80 | IP: 147.28.240.218 | Country: Germany | VPN: True | Proxy: False | TOR: False | Relay: False | Hosting: True | Service: Link VPN
+[✓] http://147.28.240.218:9401 | IP: 147.28.240.218 | Country: Germany | VPN: True | Proxy: False | TOR: False | Relay: False | Hosting: True | Service: Link VPN
+[✓] http://152.53.194.46:8068 | IP: 84.239.6.19 | Country: United States | VPN: True | Proxy: False | TOR: False | Relay: False | Hosting: True | Service: Private Internet Access
+[✓] http://152.53.194.46:8052 | IP: 84.239.27.166 | Country: United States | VPN: True | Proxy: False | TOR: False | Relay: False | Hosting: True | Service: Private Internet Access
+[✓] http://152.53.194.46:8053 | IP: 102.129.153.187 | Country: United States | VPN: True | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: Private Internet Access
+[✓] http://152.53.194.46:8051 | IP: 84.239.10.9 | Country: United States | VPN: True | Proxy: False | TOR: False | Relay: False | Hosting: True | Service: Private Internet Access
+[✓] http://149.86.142.41:8080 | IP: 149.86.142.41 | Country: Turkey | VPN: False | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: 
+[✓] http://152.53.194.46:8062 | IP: 156.146.47.32 | Country: United States | VPN: True | Proxy: False | TOR: False | Relay: False | Hosting: True | Service: Private Internet Access
+[✓] http://149.86.146.232:8080 | IP: 149.86.146.232 | Country: Turkey | VPN: False | Proxy: True | TOR: False | Relay: False | Hosting: False | Service: 
 [✓] http://154.0.14.116:3128 | IP: 154.0.14.116 | Country: South Africa | VPN: False | Proxy: True | TOR: False | Relay: False | Hosting: False | Service: 
-[✓] http://152.53.194.46:8062 | IP: 156.146.46.210 | Country: United States | VPN: True | Proxy: False | TOR: False | Relay: False | Hosting: True | Service: Private Internet Access
-[✓] http://152.53.194.46:8052 | IP: 84.239.27.144 | Country: United States | VPN: True | Proxy: False | TOR: False | Relay: False | Hosting: True | Service: Private Internet Access
-[✓] http://157.180.121.252:36825 | IP: 74.14.147.119 | Country: Canada | VPN: False | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: 
-[✓] http://154.73.28.145:8080 | IP: 154.73.28.239 | Country: Libya | VPN: False | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: 
-[✓] http://152.53.194.46:8100 | IP: 37.19.198.44 | Country: United States | VPN: True | Proxy: False | TOR: False | Relay: False | Hosting: True | Service: Private Internet Access
-[✓] http://157.20.253.163:1024 | IP: 103.124.136.134 | Country: Indonesia | VPN: False | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: 
-[✓] http://157.20.252.30:8080 | IP: 157.20.252.30 | Country: Indonesia | VPN: True | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: 
-[✓] http://157.66.84.30:7777 | IP: 157.66.84.63 | Country: Indonesia | VPN: True | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: 
-[✓] http://160.187.174.186:8080 | IP: 160.187.174.186 | Country: Indonesia | VPN: False | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: 
-[✓] http://170.130.202.134:3128 | IP: 170.130.202.134 | Country: United States | VPN: True | Proxy: False | TOR: False | Relay: False | Hosting: True | Service: Ishaan VPN
-[✓] http://168.197.182.222:8080 | IP: 168.197.182.222 | Country: Brazil | VPN: False | Proxy: True | TOR: False | Relay: False | Hosting: False | Service: 
-[✓] http://176.126.103.194:44214 | IP: 176.126.103.194 | Country: Russia | VPN: False | Proxy: True | TOR: False | Relay: False | Hosting: True | Service: 
-[✓] http://176.9.238.176:16379 | IP: 185.40.4.121 | Country: Norway | VPN: True | Proxy: False | TOR: True | Relay: False | Hosting: True | Service: ProtonVPN
-[✓] http://176.105.199.153:8010 | IP: 176.105.199.153 | Country: Ukraine | VPN: False | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: 
-[✓] http://171.5.176.105:8080 | IP: 171.5.176.105 | Country: Thailand | VPN: False | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: 
-[✓] http://177.234.217.82:999 | IP: 177.234.217.82 | Country: Ecuador | VPN: True | Proxy: True | TOR: False | Relay: False | Hosting: True | Service: 
-[✓] http://177.99.77.199:8080 | IP: 177.99.77.199 | Country: Brazil | VPN: False | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: 
+[✓] http://152.53.194.46:8065 | IP: 84.239.12.4 | Country: United States | VPN: True | Proxy: False | TOR: False | Relay: False | Hosting: True | Service: Private Internet Access
+[✓] http://15.204.151.149:31158 | IP: 15.204.151.149 | Country: United States | VPN: False | Proxy: False | TOR: False | Relay: False | Hosting: True | Service: 
+[✓] http://147.75.34.105:443 | IP: 147.75.34.105 | Country: Netherlands | VPN: False | Proxy: True | TOR: False | Relay: False | Hosting: True | Service: 
+[✓] http://150.129.115.253:6666 | IP: 150.129.115.253 | Country: India | VPN: False | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: 
+[✓] http://152.53.194.46:8055 | IP: 181.41.206.54 | Country: United States | VPN: True | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: Private Internet Access
+[✓] http://159.192.112.104:8999 | IP: 159.192.112.104 | Country: Thailand | VPN: False | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: 
+[✓] http://159.138.9.58:2221 | IP: 159.138.9.58 | Country: Hong Kong | VPN: False | Proxy: False | TOR: False | Relay: False | Hosting: True | Service: 
+[✓] http://160.19.19.99:8989 | IP: 160.19.19.99 | Country: Indonesia | VPN: False | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: 
+[✓] http://167.250.50.2:999 | IP: 167.250.50.2 | Country: Venezuela | VPN: False | Proxy: False | TOR: False | Relay: False | Hosting: True | Service: 
+[✓] http://170.0.228.250:999 | IP: 170.0.228.250 | Country: Mexico | VPN: False | Proxy: True | TOR: False | Relay: False | Hosting: False | Service: 
+[✓] http://170.64.149.240:3128 | IP: 170.64.149.240 | Country: Australia | VPN: False | Proxy: False | TOR: False | Relay: False | Hosting: True | Service: 
+[✓] http://170.130.202.134:3128 | IP: 170.130.202.134 | Country: United States | VPN: True | Proxy: True | TOR: False | Relay: False | Hosting: True | Service: Ishaan VPN
+[✓] http://171.241.121.5:4001 | IP: 171.241.121.0 | Country: Vietnam | VPN: False | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: 
+[✓] http://171.249.163.170:1452 | IP: 171.249.163.170 | Country: Vietnam | VPN: False | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: 
+[✓] http://176.88.166.211:8080 | IP: 176.88.166.211 | Country: Turkey | VPN: False | Proxy: True | TOR: False | Relay: False | Hosting: False | Service: 
+[✓] http://176.88.65.189:8080 | IP: 176.88.65.189 | Country: Turkey | VPN: False | Proxy: True | TOR: False | Relay: False | Hosting: False | Service: 
+[✓] http://177.184.195.168:8080 | IP: 177.184.195.168 | Country: Brazil | VPN: False | Proxy: True | TOR: False | Relay: False | Hosting: False | Service: 
+[✓] http://176.106.36.12:8070 | IP: 176.106.36.12 | Country: Poland | VPN: True | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: 
+[✓] http://177.130.25.76:8080 | IP: 177.130.25.76 | Country: Brazil | VPN: False | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: 
+[✓] http://177.234.217.82:999 | IP: 177.234.217.82 | Country: Ecuador | VPN: True | Proxy: False | TOR: False | Relay: False | Hosting: True | Service: 
+[✓] http://177.85.69.252:9999 | IP: 45.231.101.97 | Country: Brazil | VPN: True | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: 
 [✓] http://18.224.188.107:3128 | IP: 18.224.188.107 | Country: United States | VPN: False | Proxy: True | TOR: False | Relay: False | Hosting: True | Service: 
-[✓] http://18.179.46.106:999 | IP: 23.129.64.150 | Country: United States | VPN: True | Proxy: False | TOR: True | Relay: False | Hosting: True | Service: ProtonVPN
-[✓] http://181.118.151.184:999 | IP: 181.118.151.184 | Country: Colombia | VPN: False | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: 
-[✓] http://179.61.154.8:8050 | IP: 179.61.154.8 | Country: Brazil | VPN: True | Proxy: True | TOR: False | Relay: False | Hosting: True | Service: 
-[✓] http://180.191.34.229:8081 | IP: 180.191.34.229 | Country: Philippines | VPN: False | Proxy: True | TOR: False | Relay: False | Hosting: False | Service: 
-[✓] http://180.191.23.22:8089 | IP: 180.191.23.22 | Country: Philippines | VPN: False | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: 
-[✓] http://181.114.61.17:8085 | IP: 181.114.63.245 | Country: Argentina | VPN: False | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: 
-[✓] http://182.253.109.61:8080 | IP: 182.253.109.61 | Country: Indonesia | VPN: False | Proxy: False | TOR: False | Relay: False | Hosting: True | Service: 
-[✓] http://181.48.160.114:9090 | IP: 186.180.73.50 | Country: Colombia | VPN: False | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: 
-[✓] http://182.93.75.162:8080 | IP: 182.93.75.162 | Country: Nepal | VPN: False | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: 
-[✓] http://186.96.67.42:999 | IP: 186.96.67.40 | Country: Venezuela | VPN: False | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: 
-[✓] http://188.132.150.42:8080 | IP: 149.86.142.214 | Country: Turkey | VPN: True | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: 
-[✓] http://188.121.117.214:3128 | IP: 188.121.117.214 | Country: Iran | VPN: False | Proxy: True | TOR: False | Relay: False | Hosting: True | Service: 
-[✓] http://188.166.197.129:3128 | IP: 174.138.18.105 | Country: Singapore | VPN: False | Proxy: False | TOR: False | Relay: False | Hosting: True | Service: 
-[✓] http://188.132.150.214:8085 | IP: 188.132.150.214 | Country: Turkey | VPN: False | Proxy: True | TOR: False | Relay: False | Hosting: False | Service: 
-[✓] http://188.132.222.6:8080 | IP: 188.132.222.6 | Country: Syria | VPN: False | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: 
+[✓] http://179.0.183.182:999 | IP: 179.0.183.178 | Country: Argentina | VPN: False | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: 
+[✓] http://18.179.46.106:999 | IP: 107.189.13.254 | Country: Luxembourg | VPN: True | Proxy: False | TOR: True | Relay: False | Hosting: True | Service: ProtonVPN
+[✓] http://179.61.154.8:8050 | IP: 179.61.154.8 | Country: Brazil | VPN: True | Proxy: False | TOR: False | Relay: False | Hosting: True | Service: 
+[✓] http://179.96.28.58:80 | IP: 179.96.28.58 | Country: Brazil | VPN: True | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: 
+[✓] http://179.60.53.25:999 | IP: 179.60.53.25 | Country: Ecuador | VPN: True | Proxy: True | TOR: False | Relay: False | Hosting: True | Service: Snap
+[✓] http://181.129.147.163:8080 | IP: 181.129.147.163 | Country: Colombia | VPN: False | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: 
+[✓] http://180.149.234.73:6214 | IP: 180.149.234.73 | Country: Bangladesh | VPN: False | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: 
+[✓] http://181.205.39.236:8080 | IP: 181.205.39.236 | Country: Colombia | VPN: False | Proxy: True | TOR: False | Relay: False | Hosting: False | Service: 
+[✓] http://181.118.143.1:999 | IP: 181.118.143.187 | Country: Argentina | VPN: False | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: 
+[✓] http://181.225.190.92:999 | IP: 181.225.190.90 | Country: Colombia | VPN: True | Proxy: False | TOR: False | Relay: False | Hosting: True | Service: 
+[✓] http://181.79.83.77:999 | IP: 181.79.83.77 | Country: Colombia | VPN: False | Proxy: True | TOR: False | Relay: False | Hosting: True | Service: 
+[✓] http://181.57.183.26:8080 | IP: 181.57.183.26 | Country: Colombia | VPN: True | Proxy: True | TOR: False | Relay: False | Hosting: False | Service: 
+[✓] http://181.78.83.3:999 | IP: 181.78.83.3 | Country: Colombia | VPN: False | Proxy: False | TOR: False | Relay: False | Hosting: True | Service: 
+[✓] http://182.252.69.197:8080 | IP: 182.252.75.34 | Country: Bangladesh | VPN: True | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: 
+[✓] http://181.78.197.235:999 | IP: 181.78.197.235 | Country: Ecuador | VPN: True | Proxy: True | TOR: False | Relay: False | Hosting: True | Service: 
+[✓] http://186.208.81.214:3129 | IP: 186.208.81.214 | Country: Brazil | VPN: False | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: 
+[✓] http://186.211.157.19:8080 | IP: 186.211.157.19 | Country: Brazil | VPN: True | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: 
+[✓] http://186.190.225.152:999 | IP: 186.190.226.157 | Country: Colombia | VPN: False | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: 
+[✓] http://186.96.50.113:999 | IP: 186.96.50.113 | Country: Mexico | VPN: False | Proxy: True | TOR: False | Relay: False | Hosting: False | Service: 
+[✓] http://187.251.224.167:8081 | IP: 187.251.224.167 | Country: Mexico | VPN: False | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: 
+[✓] http://188.121.117.214:3128 | IP: 188.121.117.214 | Country: Iran | VPN: False | Proxy: False | TOR: False | Relay: False | Hosting: True | Service: 
+[✓] http://186.215.43.69:3128 | IP: 186.215.43.69 | Country: Brazil | VPN: False | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: 
+[✓] http://187.32.246.82:3128 | IP: 187.32.246.81 | Country: Brazil | VPN: False | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: 
 [✓] http://188.166.230.109:31028 | IP: 188.166.230.109 | Country: Singapore | VPN: False | Proxy: False | TOR: False | Relay: False | Hosting: True | Service: 
-[✓] http://190.110.34.253:999 | IP: 190.110.34.250 | Country: Dominican Republic | VPN: False | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: 
-[✓] http://190.14.249.111:8080 | IP: 190.14.249.111 | Country: Colombia | VPN: False | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: 
-[✓] http://190.52.101.148:999 | IP: 190.52.101.151 | Country: Venezuela | VPN: False | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: 
-[✓] http://190.83.15.241:999 | IP: 190.83.12.220 | Country: Ecuador | VPN: False | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: 
-[✓] http://190.94.213.6:999 | IP: 190.94.213.6 | Country: Venezuela | VPN: False | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: 
-[✓] http://192.81.129.252:3135 | IP: 192.81.129.252 | Country: United States | VPN: False | Proxy: True | TOR: False | Relay: False | Hosting: True | Service: 
-[✓] http://191.53.112.170:45619 | IP: 191.53.112.170 | Country: Brazil | VPN: False | Proxy: True | TOR: False | Relay: False | Hosting: False | Service: 
-[✓] http://194.147.35.134:52120 | IP: 194.147.35.134 | Country: United Kingdom | VPN: True | Proxy: True | TOR: False | Relay: False | Hosting: True | Service: VPNhack
+[✓] http://188.166.197.129:3128 | IP: 174.138.18.105 | Country: Singapore | VPN: False | Proxy: False | TOR: False | Relay: False | Hosting: True | Service: 
+[✓] http://188.125.167.201:8080 | IP: 188.125.167.195 | Country: Syria | VPN: False | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: 
+[✓] http://189.202.210.52:999 | IP: 189.202.210.52 | Country: Mexico | VPN: False | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: 
+[✓] http://190.108.95.137:999 | IP: 201.218.140.30 | Country: Peru | VPN: False | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: 
+[✓] http://188.132.222.140:8080 | IP: 188.132.222.140 | Country: Syria | VPN: False | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: 
+[✓] http://190.120.252.174:999 | IP: 190.120.252.175 | Country: Venezuela | VPN: True | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: 
+[✓] http://190.145.194.210:8080 | IP: 190.145.194.210 | Country: Colombia | VPN: True | Proxy: True | TOR: False | Relay: False | Hosting: False | Service: 
+[✓] http://190.128.134.66:999 | IP: 190.128.134.66 | Country: Paraguay | VPN: False | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: 
+[✓] http://190.15.211.43:8080 | IP: 148.222.223.154 | Country: Argentina | VPN: False | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: 
+[✓] http://190.60.41.26:999 | IP: 8.243.167.190 | Country: Colombia | VPN: True | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: 
+[✓] http://190.6.162.3:8080 | IP: 190.6.162.3 | Country: Colombia | VPN: False | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: 
+[✓] http://190.7.138.78:8080 | IP: 190.7.138.78 | Country: Colombia | VPN: False | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: 
+[✓] http://191.101.190.175:3127 | IP: 36.70.108.48 | Country: Indonesia | VPN: False | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: 
+[✓] http://190.97.230.198:999 | IP: 190.97.230.198 | Country: Venezuela | VPN: False | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: 
+[✓] http://192.140.93.6:3128 | IP: 192.140.93.6 | Country: Ecuador | VPN: False | Proxy: True | TOR: False | Relay: False | Hosting: False | Service: 
+[✓] http://190.85.141.170:9090 | IP: 186.180.73.50 | Country: Colombia | VPN: False | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: 
+[✓] http://191.97.14.189:999 | IP: 201.46.124.83 | Country: Colombia | VPN: False | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: 
+[✓] http://193.30.13.186:8080 | IP: 193.30.13.186 | Country: Ecuador | VPN: False | Proxy: True | TOR: False | Relay: False | Hosting: False | Service: 
+[✓] http://192.203.0.22:999 | IP: 192.203.0.22 | Country: Puerto Rico | VPN: False | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: 
+[✓] http://195.114.7.6:8095 | IP: 195.114.7.6 | Country: Ukraine | VPN: True | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: 
+[✓] http://195.133.250.173:3127 | IP: 195.133.250.173 | Country: Russia | VPN: False | Proxy: False | TOR: False | Relay: False | Hosting: True | Service: 
+[✓] http://194.163.173.21:3128 | IP: 194.163.173.21 | Country: Germany | VPN: False | Proxy: False | TOR: False | Relay: False | Hosting: True | Service: 
 [✓] http://195.88.71.201:8888 | IP: 195.88.71.201 | Country: United Kingdom | VPN: False | Proxy: True | TOR: False | Relay: False | Hosting: True | Service: 
-[✓] http://20.243.174.96:3128 | IP: 48.210.193.243 | Country: Japan | VPN: False | Proxy: False | TOR: False | Relay: False | Hosting: True | Service: 
-[✓] http://195.191.158.172:80 | IP: 195.191.158.172 | Country: Russia | VPN: False | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: 
-[✓] http://197.248.201.97:8080 | IP: 197.248.201.97 | Country: Kenya | VPN: False | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: 
-[✓] http://200.174.198.86:8888 | IP: 200.174.198.219 | Country: Brazil | VPN: False | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: 
-[✓] http://199.116.62.148:9999 | IP: 199.116.62.148 | Country: Puerto Rico | VPN: True | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: 
-[✓] http://200.69.78.90:999 | IP: 200.69.78.90 | Country: Colombia | VPN: False | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: 
+[✓] http://200.174.198.86:8888 | IP: 200.174.198.84 | Country: Brazil | VPN: False | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: 
+[✓] http://198.52.243.3:9999 | IP: 198.52.243.76 | Country: Puerto Rico | VPN: False | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: 
+[✓] http://200.117.0.225:999 | IP: 200.117.77.58 | Country: Argentina | VPN: False | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: 
 [✓] http://200.217.165.114:8080 | IP: 200.217.165.114 | Country: Brazil | VPN: False | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: 
-[✓] http://203.76.98.21:45958 | IP: 203.76.98.21 | Country: Bangladesh | VPN: True | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: 
-[✓] http://203.201.174.211:64321 | IP: 203.201.174.211 | Country: Indonesia | VPN: True | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: 
-[✓] http://212.110.188.198:34405 | IP: 212.110.188.198 | Country: United Kingdom | VPN: False | Proxy: False | TOR: False | Relay: False | Hosting: True | Service: 
-[✓] http://206.189.140.195:3128 | IP: 206.189.140.195 | Country: India | VPN: False | Proxy: True | TOR: False | Relay: False | Hosting: True | Service: 
-[✓] http://206.189.134.250:3128 | IP: 206.189.134.250 | Country: India | VPN: False | Proxy: True | TOR: False | Relay: False | Hosting: True | Service: 
+[✓] http://201.150.116.3:999 | IP: 201.150.118.82 | Country: Mexico | VPN: False | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: 
+[✓] http://201.245.195.11:999 | IP: 201.245.195.12 | Country: Colombia | VPN: False | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: 
+[✓] http://201.230.121.114:999 | IP: 179.63.6.220 | Country: Peru | VPN: False | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: 
+[✓] http://201.88.213.118:8080 | IP: 201.88.213.118 | Country: Brazil | VPN: False | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: 
+[✓] http://202.61.120.182:8080 | IP: 202.61.120.182 | Country: India | VPN: False | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: 
+[✓] http://203.150.128.141:8080 | IP: 203.150.128.141 | Country: Thailand | VPN: False | Proxy: False | TOR: False | Relay: False | Hosting: True | Service: 
+[✓] http://204.199.202.133:999 | IP: 204.199.202.157 | Country: Mexico | VPN: False | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: 
+[✓] http://203.177.133.235:8080 | IP: 116.50.174.218 | Country: Philippines | VPN: False | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: 
+[✓] http://203.76.98.21:45958 | IP: 203.76.98.21 | Country: Bangladesh | VPN: True | Proxy: True | TOR: False | Relay: False | Hosting: False | Service: 
+[✓] http://206.42.19.65:8080 | IP: 206.42.19.65 | Country: Brazil | VPN: False | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: 
+[✓] http://209.14.98.5:8080 | IP: 209.14.98.5 | Country: Colombia | VPN: False | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: 
+[✓] http://212.110.188.213:34411 | IP: 212.110.188.213 | Country: United Kingdom | VPN: False | Proxy: False | TOR: False | Relay: False | Hosting: True | Service: 
+[✓] http://212.110.188.202:34409 | IP: 212.110.188.202 | Country: United Kingdom | VPN: False | Proxy: True | TOR: False | Relay: False | Hosting: True | Service: 
+[✓] http://212.110.188.220:34409 | IP: 212.110.188.220 | Country: United Kingdom | VPN: False | Proxy: False | TOR: False | Relay: False | Hosting: True | Service: 
+[✓] http://213.108.172.244:65056 | IP: 213.108.172.244 | Country: Russia | VPN: False | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: 
+[✓] http://212.110.188.189:34405 | IP: 212.110.188.189 | Country: United Kingdom | VPN: False | Proxy: False | TOR: False | Relay: False | Hosting: True | Service: 
+[✓] http://213.178.39.170:8080 | IP: 213.178.39.170 | Country: Russia | VPN: False | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: 
+[✓] http://213.87.103.76:3128 | IP: 213.87.103.76 | Country: Russia | VPN: False | Proxy: True | TOR: False | Relay: False | Hosting: False | Service: 
 [✓] http://23.237.210.82:80 | IP: 23.237.210.82 | Country: United States | VPN: True | Proxy: True | TOR: False | Relay: False | Hosting: True | Service: Blaze VPN
-[✓] http://223.16.170.103:3128 | IP: 223.16.170.103 | Country: Hong Kong | VPN: True | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: 
-[✓] http://27.147.249.17:38947 | IP: 27.147.249.17 | Country: Bangladesh | VPN: True | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: 
-[✓] http://27.147.217.102:6969 | IP: 27.147.217.102 | Country: Bangladesh | VPN: False | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: 
+[✓] http://223.16.170.103:3128 | IP: 223.16.170.103 | Country: Hong Kong | VPN: True | Proxy: True | TOR: False | Relay: False | Hosting: False | Service: 
+[✓] http://223.135.156.183:8080 | IP: 223.135.156.183 | Country: Japan | VPN: False | Proxy: True | TOR: False | Relay: False | Hosting: False | Service: 
+[✓] http://27.254.99.183:8118 | IP: 27.254.99.183 | Country: Thailand | VPN: False | Proxy: False | TOR: False | Relay: False | Hosting: True | Service: 
+[✓] http://27.71.141.120:16000 | IP: 27.71.141.120 | Country: Vietnam | VPN: False | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: 
+[✓] http://27.71.143.114:16000 | IP: 27.71.143.114 | Country: Vietnam | VPN: False | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: 
+[✓] http://36.136.27.2:4999 | IP: 36.136.27.2 | Country: China | VPN: False | Proxy: True | TOR: False | Relay: False | Hosting: False | Service: 
 [✓] http://31.44.91.218:8080 | IP: 77.238.103.98 | Country: Russia | VPN: False | Proxy: False | TOR: False | Relay: False | Hosting: True | Service: 
-[✓] http://36.93.163.219:8080 | IP: 36.93.163.219 | Country: Indonesia | VPN: False | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: 
-[✓] http://38.147.98.190:8080 | IP: 38.147.98.190 | Country: United States | VPN: False | Proxy: True | TOR: False | Relay: False | Hosting: False | Service: 
-[✓] http://38.191.146.7:999 | IP: 38.191.146.3 | Country: Colombia | VPN: False | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: 
+[✓] http://37.187.109.70:10111 | IP: 37.187.109.70 | Country: France | VPN: False | Proxy: False | TOR: False | Relay: False | Hosting: True | Service: 
+[✓] http://37.120.162.180:42824 | IP: 90.161.191.29 | Country: Spain | VPN: False | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: 
+[✓] http://36.89.158.93:4480 | IP: 36.89.158.91 | Country: Indonesia | VPN: False | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: 
+[✓] http://36.91.166.98:8080 | IP: 36.91.166.98 | Country: Indonesia | VPN: False | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: 
 [✓] http://38.250.126.201:999 | IP: 38.250.126.204 | Country: Chile | VPN: False | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: 
-[✓] http://38.156.14.34:999 | IP: 38.156.14.34 | Country: Dominican Republic | VPN: False | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: 
-[✓] http://38.46.235.3:8088 | IP: 123.231.148.118 | Country: Indonesia | VPN: True | Proxy: False | TOR: False | Relay: False | Hosting: True | Service: Ishaan VPN
-[✓] http://38.190.100.236:999 | IP: 38.190.100.237 | Country: Peru | VPN: True | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: 
-[✓] http://38.194.246.34:999 | IP: 38.194.246.34 | Country: Mexico | VPN: False | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: 
-[✓] http://42.96.16.176:1312 | IP: 42.96.16.176 | Country: Vietnam | VPN: False | Proxy: False | TOR: False | Relay: False | Hosting: True | Service: 
-[✓] http://45.133.107.234:81 | IP: 45.133.107.234 | Country: Armenia | VPN: False | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: 
+[✓] http://38.194.246.34:999 | IP: 38.194.246.34 | Country: Mexico | VPN: False | Proxy: True | TOR: False | Relay: False | Hosting: False | Service: 
+[✓] http://38.211.24.146:8080 | IP: 38.211.24.253 | Country: Indonesia | VPN: False | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: 
+[✓] http://38.7.16.194:999 | IP: 38.7.138.34 | Country: Mexico | VPN: False | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: 
+[✓] http://36.95.169.154:8080 | IP: 36.95.169.154 | Country: Indonesia | VPN: False | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: 
+[✓] http://42.118.74.104:16000 | IP: 42.118.74.104 | Country: Vietnam | VPN: False | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: 
+[✓] http://43.130.57.74:3128 | IP: 43.130.57.74 | Country: United States | VPN: False | Proxy: True | TOR: False | Relay: False | Hosting: True | Service: 
+[✓] http://42.119.241.37:3059 | IP: 118.71.246.55 | Country: Vietnam | VPN: False | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: 
+[✓] http://43.252.107.102:7777 | IP: 43.252.107.115 | Country: Indonesia | VPN: True | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: 
+[✓] http://45.173.199.51:999 | IP: 38.51.123.224 | Country: Venezuela | VPN: False | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: 
 [✓] http://45.173.12.141:1994 | IP: 45.173.12.141 | Country: Colombia | VPN: False | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: 
-[✓] http://45.153.165.84:999 | IP: 45.229.32.122 | Country: Dominican Republic | VPN: False | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: 
+[✓] http://45.177.16.129:999 | IP: 45.177.16.254 | Country: Paraguay | VPN: True | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: 
+[✓] http://45.184.103.110:999 | IP: 45.184.103.9 | Country: Venezuela | VPN: True | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: 
+[✓] http://45.174.80.83:20183 | IP: 45.174.80.83 | Country: Brazil | VPN: False | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: 
 [✓] http://45.230.170.30:999 | IP: 45.230.170.29 | Country: Venezuela | VPN: False | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: 
+[✓] http://45.70.236.194:999 | IP: 45.70.236.194 | Country: Ecuador | VPN: False | Proxy: True | TOR: False | Relay: False | Hosting: True | Service: 
+[✓] http://45.225.120.36:40033 | IP: 131.72.69.212 | Country: Brazil | VPN: False | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: 
+[✓] http://45.71.115.91:999 | IP: 45.71.115.73 | Country: Ecuador | VPN: False | Proxy: False | TOR: False | Relay: False | Hosting: True | Service: 
 [✓] http://45.63.40.63:80 | IP: 45.63.40.63 | Country: Netherlands | VPN: False | Proxy: True | TOR: False | Relay: False | Hosting: True | Service: 
-[✓] http://45.4.3.89:999 | IP: 45.4.0.18 | Country: Chile | VPN: True | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: 
-[✓] http://46.209.207.153:8080 | IP: 46.209.207.146 | Country: Iran | VPN: True | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: 
-[✓] http://46.16.229.254:8079 | IP: 46.16.229.254 | Country: Russia | VPN: False | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: 
-[✓] http://46.172.36.213:8080 | IP: 46.172.36.213 | Country: Russia | VPN: False | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: 
-[✓] http://47.252.29.28:11222 | IP: 92.118.139.207 | Country: Ukraine | VPN: False | Proxy: False | TOR: False | Relay: False | Hosting: True | Service: 
-[✓] http://51.159.159.73:80 | IP: 51.159.159.73 | Country: France | VPN: False | Proxy: True | TOR: False | Relay: False | Hosting: True | Service: 
+[✓] http://46.122.7.149:8080 | IP: 46.122.7.149 | Country: Slovenia | VPN: False | Proxy: True | TOR: False | Relay: False | Hosting: False | Service: 
+[✓] http://47.245.117.43:80 | IP: 47.245.117.43 | Country: Singapore | VPN: False | Proxy: False | TOR: False | Relay: False | Hosting: True | Service: 
+[✓] http://47.88.18.204:8023 | IP: 47.88.18.204 | Country: United States | VPN: False | Proxy: False | TOR: False | Relay: False | Hosting: True | Service: 
 [✓] http://51.79.99.237:4502 | IP: 149.34.248.76 | Country: United States | VPN: True | Proxy: False | TOR: False | Relay: False | Hosting: True | Service: Windscribe
-[✓] http://57.129.81.201:3128 | IP: 57.129.81.201 | Country: Germany | VPN: True | Proxy: True | TOR: False | Relay: False | Hosting: True | Service: Ishaan VPN
-[✓] http://57.129.81.201:8080 | IP: 57.129.81.201 | Country: Germany | VPN: True | Proxy: True | TOR: False | Relay: False | Hosting: True | Service: Ishaan VPN
-[✓] http://57.129.81.201:999 | IP: 57.129.81.201 | Country: Germany | VPN: True | Proxy: True | TOR: False | Relay: False | Hosting: True | Service: Ishaan VPN
-[✓] http://57.129.81.201:8081 | IP: 57.129.81.201 | Country: Germany | VPN: True | Proxy: True | TOR: False | Relay: False | Hosting: True | Service: Ishaan VPN
+[✓] http://49.146.58.86:8082 | IP: 49.146.58.86 | Country: Philippines | VPN: False | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: 
+[✓] http://57.129.81.201:8081 | IP: 57.129.81.201 | Country: Germany | VPN: True | Proxy: True | TOR: False | Relay: False | Hosting: True | Service: Link VPN
+[✓] http://57.129.81.201:3128 | IP: 57.129.81.201 | Country: Germany | VPN: True | Proxy: True | TOR: False | Relay: False | Hosting: True | Service: Link VPN
+[✓] http://57.129.81.201:8080 | IP: 57.129.81.201 | Country: Germany | VPN: True | Proxy: True | TOR: False | Relay: False | Hosting: True | Service: Link VPN
+[✓] http://57.129.81.201:999 | IP: 57.129.81.201 | Country: Germany | VPN: True | Proxy: True | TOR: False | Relay: False | Hosting: True | Service: Link VPN
 [✓] http://59.29.182.162:8888 | IP: 59.29.182.162 | Country: South Korea | VPN: False | Proxy: True | TOR: False | Relay: False | Hosting: False | Service: 
-[✓] http://58.147.186.31:3125 | IP: 58.147.186.31 | Country: Indonesia | VPN: False | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: 
-[✓] http://58.69.143.223:41890 | IP: 58.69.143.223 | Country: Philippines | VPN: False | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: 
+[✓] http://61.29.96.146:8000 | IP: 61.29.96.146 | Country: Australia | VPN: False | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: 
+[✓] http://62.193.108.135:1976 | IP: 62.193.108.135 | Country: Egypt | VPN: False | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: 
+[✓] http://60.174.167.40:4999 | IP: 60.174.167.40 | Country: China | VPN: True | Proxy: True | TOR: False | Relay: False | Hosting: False | Service: VPN Bridge
+[✓] http://61.216.156.222:60808 | IP: 61.216.156.222 | Country: Taiwan | VPN: False | Proxy: True | TOR: False | Relay: False | Hosting: False | Service: 
+[✓] http://65.108.159.129:8081 | IP: 2a01:4f9:c011:a105::1 | Country: Finland | VPN: False | Proxy: False | TOR: False | Relay: False | Hosting: True | Service: 
+[✓] http://66.78.40.66:8880 | IP: 198.54.129.215 | Country: United States | VPN: True | Proxy: False | TOR: False | Relay: False | Hosting: True | Service: IVPN
+[✓] http://62.201.217.194:8080 | IP: 62.201.217.194 | Country: Iraq | VPN: False | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: 
 [✓] http://61.164.204.130:4999 | IP: 61.164.204.130 | Country: China | VPN: False | Proxy: True | TOR: False | Relay: False | Hosting: False | Service: 
-[✓] http://65.108.159.129:8081 | IP: 65.108.159.129 | Country: Finland | VPN: False | Proxy: True | TOR: False | Relay: False | Hosting: True | Service: 
-[✓] http://67.219.118.122:8080 | IP: 67.219.118.122 | Country: United States | VPN: False | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: 
-[✓] http://70.36.99.51:3128 | IP: 70.36.99.51 | Country: United States | VPN: False | Proxy: True | TOR: False | Relay: False | Hosting: True | Service: 
-[✓] http://67.73.240.1:8081 | IP: 67.73.184.178 | Country: Colombia | VPN: False | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: 
-[✓] http://64.227.140.246:3128 | IP: 64.227.140.246 | Country: India | VPN: False | Proxy: True | TOR: False | Relay: False | Hosting: True | Service: 
-[✓] http://78.47.126.220:8888 | IP: 185.195.232.134 | Country: United Kingdom | VPN: True | Proxy: False | TOR: False | Relay: False | Hosting: True | Service: Mullvad
-[✓] http://78.128.51.140:8080 | IP: 78.128.51.138 | Country: Bulgaria | VPN: False | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: 
-[✓] http://8.243.67.190:8080 | IP: 186.154.195.157 | Country: Colombia | VPN: False | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: 
-[✓] http://8.219.97.248:80 | IP: 8.219.64.236 | Country: Singapore | VPN: True | Proxy: False | TOR: False | Relay: False | Hosting: True | Service: VPN Bridge
-[✓] http://81.0.50.19:8080 | IP: 94.76.172.0 | Country: Spain | VPN: True | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: 
-[✓] http://85.206.93.105:8080 | IP: 83.67.215.223 | Country: United Kingdom | VPN: False | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: 
-[✓] http://89.46.249.254:60729 | IP: 89.46.249.254 | Country: United Kingdom | VPN: False | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: 
-[✓] http://89.117.145.245:3128 | IP: 89.117.145.245 | Country: United States | VPN: True | Proxy: False | TOR: False | Relay: False | Hosting: True | Service: Snap
+[✓] http://70.36.99.51:3128 | IP: 70.36.99.51 | Country: United States | VPN: False | Proxy: False | TOR: False | Relay: False | Hosting: True | Service: 
+[✓] http://64.227.134.69:3128 | IP: 64.227.134.69 | Country: India | VPN: False | Proxy: False | TOR: False | Relay: False | Hosting: True | Service: 
+[✓] http://64.227.134.174:3128 | IP: 64.227.134.174 | Country: India | VPN: False | Proxy: True | TOR: False | Relay: False | Hosting: True | Service: 
+[✓] http://80.94.229.155:8080 | IP: 80.94.229.155 | Country: Belarus | VPN: False | Proxy: True | TOR: False | Relay: False | Hosting: False | Service: 
+[✓] http://82.103.94.190:8080 | IP: 82.103.94.190 | Country: Bulgaria | VPN: False | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: 
+[✓] http://84.247.188.39:8888 | IP: 146.70.163.204 | Country: Brazil | VPN: True | Proxy: False | TOR: False | Relay: False | Hosting: True | Service: Surfshark
+[✓] http://85.187.224.21:8080 | IP: 85.187.224.21 | Country: Bulgaria | VPN: False | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: 
+[✓] http://89.117.145.245:3128 | IP: 89.117.145.245 | Country: United States | VPN: True | Proxy: True | TOR: False | Relay: False | Hosting: True | Service: Ishaan VPN
+[✓] http://89.58.45.94:35479 | IP: 194.32.242.187 | Country: Russia | VPN: False | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: 
 [✓] http://91.203.179.72:65056 | IP: 91.203.179.72 | Country: Russia | VPN: True | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: 
-[✓] http://92.58.181.171:7575 | IP: 92.58.181.171 | Country: Spain | VPN: False | Proxy: True | TOR: False | Relay: False | Hosting: False | Service: 
+[✓] http://92.58.181.171:7575 | IP: 92.58.181.171 | Country: Spain | VPN: False | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: 
+[✓] http://88.1.159.1:3128 | IP: 88.1.159.1 | Country: Spain | VPN: False | Proxy: True | TOR: False | Relay: False | Hosting: False | Service: 
+[✓] http://89.151.133.216:8080 | IP: 89.151.133.216 | Country: Russia | VPN: False | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: 
+[✓] http://92.207.253.226:38157 | IP: 92.207.253.226 | Country: United Kingdom | VPN: False | Proxy: True | TOR: False | Relay: False | Hosting: False | Service: 
+[✓] http://91.230.65.202:8080 | IP: 91.230.65.202 | Country: Russia | VPN: True | Proxy: False | TOR: False | Relay: False | Hosting: False | Service: 
+[✓] http://91.211.212.6:32650 | IP: 91.211.212.6 | Country: Greece | VPN: True | Proxy: True | TOR: False | Relay: False | Hosting: True | Service: 
+[✓] http://94.182.146.250:8080 | IP: 172.237.11.44 | Country: Japan | VPN: False | Proxy: False | TOR: False | Relay: False | Hosting: True | Service: 
